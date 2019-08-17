@@ -19,6 +19,7 @@ from django.http import JsonResponse
 
 
 def index(request):
+    import pdb; pdb.set_trace()
     return JsonResponse({'foo': 'bar'})
 
 
